@@ -1,0 +1,10 @@
+# .qlty/qlty.toml
+
+[project]
+name = "files_hackathon"
+branch = "main"  # branche à analyser
+
+[analysis]
+# chemins ou patterns des fichiers à analyser
+include = ["**/*.py"]  # tous les fichiers Python
+exclude = ["tests/**"]  # dossiers à ignorer
